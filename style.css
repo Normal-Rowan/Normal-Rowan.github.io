@@ -2,3 +2,26 @@ body {
   background-color:#230777 ;
   color: #FFFFFF ;
 }
+
+div {
+    display: block;
+}
+
+header{
+	top: 0;
+    left: 0;
+    right: 0;
+}
+
+#navbar {
+	align-items: center;
+	position: fixed;
+    background-color: #282A35;
+    color: #17054f;
+    padding: 5px;
+    letter-spacing: 2px;
+    top: 5px;
+    z-index: 2;
+    width: 100%;
+}
+
