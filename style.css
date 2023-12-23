@@ -20,7 +20,7 @@ header{
     width: 100%;
 }
 
-.navbar li {
+.navbar a {
   float: left;
   color: #000000;
   text-align: center;
@@ -29,12 +29,16 @@ header{
   font-size: 17px;
 }
 
-.navbar li:hover {
+.navbar nav {
+  float: right;
+}
+
+.navbar a:hover {
   background-color: #000000;
   color: black;
 }
 
-.navbar li.active {
+.navbar a.active {
   background-color: #04AA6D;
   color: white;
 }
