@@ -13,15 +13,28 @@ header{
     right: 0;
 }
 
-#navbar {
+.navbar {
 	align-items: center;
-	position: fixed;
     background-color: #282A35;
-    color: #17054f;
-    padding: 5px;
-    letter-spacing: 2px;
-    top: 5px;
-    z-index: 2;
+	overflow: hidden;
     width: 100%;
 }
 
+.navbar li {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar li:hover {
+  background-color: #000000;
+  color: black;
+}
+
+.navbar li.active {
+  background-color: #04AA6D;
+  color: white;
+}
