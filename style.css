@@ -23,6 +23,7 @@ header{
 
 .navbar img {
   float: left;
+  border-radius: 50%;
 }
 
 .navbar a {
