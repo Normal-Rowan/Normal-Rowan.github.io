@@ -1,47 +1,61 @@
+@font-face {
+  font-family: Arvo;
+  src: url(Arvo-Regular.ttf);
+}
+
+html {
+    height: 100%;
+	font-family: Arvo;
+}
+
 body {
-  background-image: linear-gradient(to bottom right, #230777, #0C0228) ;
-  color: #FFFFFF ;
-}
-
-div {
-    border: 2px;
-	border-color: white;	
-}
-
-header{
-	top: 0;
-    left: 0;
-    right: 0;
+	color: white;
+    height: 100%;
+    margin: 0;
+	background: linear-gradient(167deg, rgba(10,0,38,1) 0%, rgba(28,36,105,1) 100%);
 }
 
 .navbar {
-	align-items: center;
-    background-color: #282A35;
-	overflow: hidden;
+	height:120px;
+    float: center;
     width: 100%;
+	text-align: center;
 }
 
-.navbar img {
-  float: left;
-  border-radius: 50%;
+img {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	padding: 0.5%;
+	border-radius: 50%;
+	width: 65px;
+	height: auto;
 }
 
 .navbar a {
-  float: center;
-  color: #000000;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-
-.navbar a:hover {
-  background-color: #000000;
-  color: white;
+	padding: 1%;
+	color: white;
+	text-decoration: none;
+	font-size: 50px;
+	border-radius: 10px;
+	transition: 1s;
 }
 
 .navbar a.active {
-  background-color: #0C0228;
-  color: white;
+	background-color: #6942dd;
+	color: #240f62;
+}
+
+.navbar a:hover {
+	background-color: #240f62;
+	color: #FFFFFF;
+}
+
+.content {
+	border-radius:20px;
+	position:absolute;
+	right:30%;
+	width: 40%;
+	background-color: gray;
+	text-align:center;
 }
