@@ -21,8 +21,12 @@ header{
     width: 100%;
 }
 
-.navbar a {
+.navbar img {
   float: left;
+}
+
+.navbar a {
+  float: center;
   color: #000000;
   text-align: center;
   padding: 14px 16px;
@@ -30,9 +34,6 @@ header{
   font-size: 17px;
 }
 
-.navbar img {
-  float: left;
-}
 
 .navbar a:hover {
   background-color: #000000;
