@@ -16,6 +16,8 @@ body {
 }
 
 .navbar {
+	position: relative;
+	top: 15px;
 	height:120px;
 	float: center;
 	width: 100%;
@@ -52,10 +54,13 @@ img {
 }
 
 .content {
+	color: rgba(10,0,38,1);
 	border-radius:20px;
 	position:absolute;
 	right:30%;
-	width: 40%;
-	background-color: gray;
+	width: 37%;
+	background: rgb(151,148,159);
+	background: radial-gradient(circle, rgba(151,148,159,1) 0%, rgba(125,120,134,1) 100%, rgba(144,144,144,1) 100%);
 	text-align:center;
+	padding: 1.5%;
 }
