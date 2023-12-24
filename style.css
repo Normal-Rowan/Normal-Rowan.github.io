@@ -1,5 +1,5 @@
 body {
-  background-color: linear-gradient(to bottom right, #230777, #0C0228) ;
+  background-image: linear-gradient(to bottom right, #230777, #0C0228) ;
   color: #FFFFFF ;
 }
 
@@ -30,16 +30,16 @@ header{
   font-size: 17px;
 }
 
-.navbar nav {
-  float: right;
+.navbar img {
+  float: left;
 }
 
 .navbar a:hover {
   background-color: #000000;
-  color: black;
+  color: white;
 }
 
 .navbar a.active {
-  background-color: #04AA6D;
+  background-color: #0C0228;
   color: white;
 }
