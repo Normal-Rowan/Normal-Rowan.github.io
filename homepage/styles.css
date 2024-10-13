@@ -1,0 +1,32 @@
+.spacer-5{
+    width: 5%;
+}
+
+h1 {
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.spec-width {
+    max-width: 20%;
+}
+
+
+table, th, td {
+    border: 1px;
+    border-color: gray;
+    border-style: solid;
+}
+
+.custom-color1 h1{
+    background: radial-gradient(#198754,#212529);
+}
+
+@media (min-width: 600px) {
+    .container {
+        max-width: 70%;
+    }
+}

@@ -1,0 +1,26 @@
+HTML Tags:
+    <html>
+    <head>
+    <link>
+    <script>
+    <meta>
+    <div>
+    <p>
+    <button>
+    <ul>
+    <li>
+    <form>
+    <input>
+
+CSS properties:
+    max-width
+    width
+    border-width
+    border-color
+    border-style
+    padding
+    border-radius
+    background
+
+Sentence:
+I used bootstrap for most of my styling as it had defaults that where easy to class too, I also used javascript to try handle a form submission, only as a proof of concept as to make it really work I would need to use an API.
